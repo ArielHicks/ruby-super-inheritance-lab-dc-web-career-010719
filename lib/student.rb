@@ -1,11 +1,11 @@
 class Student
 
     def initialize(hello)
-      @hello = "Hey there! I'm so excited to learn stuff."
+      @hello = hello
     end
 
     def hello
-      @hello
+      puts "Hey there! I'm so excited to learn stuff."
     end
 
 
